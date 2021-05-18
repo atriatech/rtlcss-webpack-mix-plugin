@@ -3,6 +3,7 @@ const rtlcss = require('rtlcss');
 const cssDiff = require('@romainberger/css-diff');
 const cssnano = require('cssnano');
 const { ConcatSource } = require('webpack-sources');
+const path = require('path');
 
 class RTLCSSPlugin {
 	constructor(options) {
